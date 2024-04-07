@@ -1,0 +1,103 @@
+/* body.......... */
+body{
+    margin: 50px 100px;
+}
+/* intro section...... */
+.intro-text-section h1{
+    font-size: xx-large;
+    color: gray;
+}
+.intro-text-section li{
+    color: gray;
+}
+.intro-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px 0;
+    padding: 20px 0;
+    background-color: rgb(168, 200, 212);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 8px;
+}
+.intro-section:hover{
+    background-color: rgb(167, 159, 219);
+}
+/* about me........ */
+.aboutme-text h1{
+  font-size: xx-large;
+}
+.aboutme-text p{
+    color: gray;
+}
+.aboutme-text{
+    width: 500px;
+}
+.aboutme-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(173, 207, 207);
+    padding: 20px 0;
+    border-radius: 8px;
+
+}
+.aboutme-section:hover{
+    background-color: rgb(196, 168, 223);
+}
+/* what i do........ */
+.whatido{
+    background-color: rgb(170, 217, 235);
+    border-radius: 8px;
+}
+.whatido-card {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.whatido-card div{
+    padding: 30px;
+    margin: 20px;
+    height: 200px;
+    width: 240px;
+    border-radius: 8px;
+    border: 5px double black;
+
+}
+.whatido-card div:hover{
+    background-color: lavender;
+}
+.whatido:hover{
+    background-color: cornflowerblue;
+}
+@media only screen and (max-width:925px){
+    .intro-section{
+        display: flex;
+        flex-direction: column;
+    }
+    body{
+        margin: 80px 30px;
+    }
+}
+@media only screen and (max-width:625px){
+    .aboutme-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutme-text p{
+        margin: 110px 80px;
+    }
+    .aboutme-text h1{
+        margin: 70px;
+    }
+    
+}
+@media only screen and (max-width:625px){
+    .whatido-card{
+        display: flex;
+        flex-direction: column;
+    }
+    body{
+        margin: 160px 130px;
+    }
+}
