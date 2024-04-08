@@ -70,7 +70,7 @@ body{
 .whatido:hover{
     background-color: cornflowerblue;
 }
-@media only screen and (max-width:925px){
+@media only screen and (max-width:625px){
     .intro-section{
         display: flex;
         flex-direction: column;
@@ -79,25 +79,32 @@ body{
         margin: 80px 30px;
     }
 }
-@media only screen and (max-width:625px){
+ @media only screen and (max-width:625px){
     .aboutme-section{
         display: flex;
         flex-direction: column;
     }
-    .aboutme-text p{
-        margin: 110px 80px;
-    }
     .aboutme-text h1{
-        margin: 70px;
+        margin: 180px 120px;
+    }
+    .aboutme-text p{
+        margin: 180px 120px;
     }
     
-}
-@media only screen and (max-width:625px){
+} 
+ @media only screen and (max-width:625px){
     .whatido-card{
         display: flex;
         flex-direction: column;
     }
-    body{
-        margin: 160px 130px;
+    .whatido-card div{
+        margin: 10px 0px;
+        padding: 5px;
+        width: 190px;
+       
+    }
+    .whatido-card{
+        margin: 25px 20px;
+        padding: 3px 5px;
     }
 }
